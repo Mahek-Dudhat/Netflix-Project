@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'popins', sans-serif;
+}
+
+body {
+
+    background-color: black;
+}
+
+.main {
+    height: 80vh;
+    background-image: url("assets/bg.jpg");
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px 100vw);
+    background-repeat: no-repeat;
+
+}
+
+.box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.btncontainer {
+    width: 762.66px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .red-btn1 {
+    position: relative;
+    z-index: 10;
+    height: 32px;
+    width: 75.59px;
+    border-radius: 0.35rem;
+    background-color: rgb(222, 4, 4);
+    color: white;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+
+}
+
+.red-btn1:hover {
+    background-color: rgb(172, 6, 6);
+}
+
+nav #lang {
+    font-size: 15px;
+    position: relative;
+    z-index: 10;
+    height: 32px;
+    width: 124.8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-weight: 400;
+    border-radius: 0.35rem;
+    border: none;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+#logo1 {
+    position: relative;
+    z-index: 10;
+    margin-top: 15px;
+}
+
+#logo1 img {
+    height: 40px;
+    width: 148px;
+}
+
+.hero {
+    /* font-family: 'martel sans', sans-serif; */
+    font-family: 'popins', sans-serif;
+    height: calc(100% - 62px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    /* padding:0 30px; */
+}
+
+.hero>:first-child {
+    font-family: 'popins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero>:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hero2 input {
+    font-size: 15px;
+    font-weight: 400;
+    height: 56px;
+    width: 370px;
+    padding: 0 10px 0 6px;
+    background-color: rgba(23, 23, 23, 0.1);
+    border-radius: 0.30rem;
+    color: rgb(93, 93, 93);
+    border: 0.35px solid gray;
+    color: white;
+}
+
+.hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero2 .red-btn2 {
+    height: 58px;
+    width: 202.74px;
+    font-size: 24px;
+    background-color: rgb(222, 4, 4);
+    border-radius: 0.35rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .hero2 {
+        flex-wrap: wrap;
+    }
+}
+
+.red-btn2:hover {
+    background-color: rgb(172, 6, 6);
+}
+
+.separation {
+    height: 8px;
+    background-color: rgb(33, 32, 32);
+}
+
+.firstsec {
+
+    display: flex;
+    max-width: 80vw;
+    justify-content: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0;
+
+}
+
+@media (max-width:960px) {
+    .firstsec {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+.firstsec .firstsecp1 {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.firstsec>.firstsecp1 :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.firstsec>.firstsecp1 :nth-child(2) {
+    font-size: 24px;
+    font-family: sans-serif;
+    margin: 16px 0 0;
+
+}
+
+.firstsecp2 {
+
+    position: relative;
+}
+
+.firstsecp2 img {
+    height: 429.9px;
+    width: 573.2px;
+    left: 0;
+    position: relative;
+
+    z-index: 10;
+
+}
+
+
+.firstsecp2 video {
+
+    position: absolute;
+
+    top: 65px;
+    right: 0;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+
+    padding: 72px;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.faq .faqbox {
+    max-width: 60vw;
+    margin: auto;
+    transition: all 1s ease-out;
+    width: 880px;
+    background-color: #2d2d2d;
+    align-items: center;
+    padding: 30px;
+    font-size: 24px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqbox:hover {
+    background-color: #524d4d;
+    cursor: pointer;
+}
+
+.separation2 {
+    height: 8px;
+    background-color: black;
+}
+
+.faqbox svg {
+    left: 0;
+}
+
+#faqmsg {
+    color: white;
+    text-align: center;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.second {
+    margin-top: 20px;
+}
+
+footer {
+    color: gray;
+    max-width: 60vw;
+    padding-bottom: 24px;
+    margin-left: 100px
+             
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+
+}
+
+@media (max-width:960px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+footer .question {
+    margin: 34px 0;
+}
+
+footer .footeritem {
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer a {
+    font-size: 14px;
+    color: gray;
+    text-decoration-line: underline;
+}
+
+footer #lang {
+    font-size: 15px;
+    position: relative;
+    z-index: 10;
+    height: 32px;
+    width: 124.8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-weight: 400;
+    border-radius: 0.35rem;
+    border: none;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 25px 0 40px 0;
+}
+
+footer .question {
+    margin: 70px 0 34px 0;
+}
+
+footer span {
+    color: #ffffffb3;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+footer .lastmsg {
+    height: 16.6px;
+    width: 73.8px;
+}
